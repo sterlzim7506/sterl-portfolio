@@ -17,25 +17,25 @@ const Sidebar = ({ menuOpen, setMenuOpen }) => {
         &times;
       </button>
 
-      <Link to={"/sterl-portfolio/"} className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}>
+      <Link to={"/"} className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}>
         <span onClick={() => setMenuOpen(false)}>
           Home
         </span>
       </Link>
 
-      <Link to={"/sterl-portfolio/about"} className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}>
+      <Link to={"/about"} className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}>
         <span onClick={() => setMenuOpen(false)} >
           About
         </span>
       </Link>
 
-      <Link to={"/sterl-portfolio/projects"} className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}>
+      <Link to={"/projects"} className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}>
         <span onClick={() => setMenuOpen(false)} >
           Projects
         </span>
       </Link>
 
-      <Link to={"/sterl-portfolio/contacts"} className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}>
+      <Link to={"/contacts"} className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}>
         <span onClick={() => setMenuOpen(false)} >
           Contacts
         </span>

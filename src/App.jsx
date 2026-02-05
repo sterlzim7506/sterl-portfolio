@@ -17,27 +17,27 @@ const App = () => {
       <Sidebar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Routes>
         <Route
-          path='/sterl-portfolio/'
+          path='/'
           element={(
             <Home />
           )}
         />
         <Route
-          path='/sterl-portfolio/about'
+          path='/about'
           element={(
             <About />
           )}
         />
 
         <Route
-          path='/sterl-portfolio/projects'
+          path='/projects'
           element={(
             <Projects />
           )}
         />
 
         <Route
-          path='/sterl-portfolio/contacts'
+          path='/contacts'
           element={(
             <Contacts />
           )}
